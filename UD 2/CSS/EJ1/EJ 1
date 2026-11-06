@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/estilos.css">
+      <style>
+        li{
+            color:green;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Orden de preferencia de aplicación de los estilos</h1>
+    <p>En este documento, vamos a comprobar paso a paso como es el orden de preferencia de aplicación de los estilos</p>
+    
+
+    
+  </body>
+</html>

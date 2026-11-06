@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularios</title>
 </head>
-    <body>
-        <form action="validar.php" method="get">
-            <fieldset>
-                <legend>Datos personales</legend>
-                <label for="telefono">Teléfono</label>
-                <input type="text" name="telefono" id="telefono" size="9" placeholder="9 números" maxlength="9">
-                <br>
-                <label for="correo">Correo electrónico</label>
-                <input type="text" name="correo" id="correo" size="50" maxlength="50" placeholder="El formato correcto es nombre + @ + servidor de correo.">
-            </fieldset>
-            <fieldset>
-                <legend>Valores numéricos</legend>
-                <label for="numpersonas">Número de personas</label>
-                <input type="number" min="1" max="20" name="numpersonas" id="numpersonas" value="1">
-                <br>
-                <label for="puntuacion">Mueva la barra para indicar puntuación (Del 1 al 10)</label>
-                <input type="range" min="1" max="10" value="0" name="puntuacion" id="puntuacion">
-            </fieldset>
-            <fieldset>
-                <legend>URL y búsqueda</legend>
-                <label for="url">URL de tu sitio</label>
-                <input type="url" name="url" id="url">
-                <br>
-                <label for="interesa">¿Qué te interesa buscar?</label>
-                <input type="text" name="interesa" id="interesa">
-            </fieldset>
-            <fieldset>
-                <legend>Otros tipos</legend>
-                <label for="color">Color</label>
-                <input type="color" name="color" id="color">
-            </fieldset>
-            <fieldset>
-                <legend>Para fechas</legend>
-                <label for="fecha">Seleccione una fecha (hasta fin de año)</label>
-                <input type="date" min="10-30-2026" max="12-31-2026" name="fecha" id="fecha">
-                <br>
-                <label for="hora">Seleccione una hora</label>
-                <input type="time" name="hora" id="hora">
-                <br>
-                <label for="mes">Seleccione un mes</label>
-                <input type="month" name="mes" id="mes">
-                <br>
-                <label for="semana">Seleccione una semana</label>
-                <input type="week" name="semana" id="semana">
-                <br>
-                <label for="fechahora">Seleccione una fecha y una hora</label>
-                <input type="datetime-local" name="fechahora" id="fechahora">
-            </fieldset>
-            <button type="submit">
-                <img src="img/canvas.png" width="50" height="50"> Validar
-            </button>
-            <button type="reset">
-                
-            </button>
 
-    </body>
- </html>   
+<body>
+    <form action="validar.php" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="telefono">Teléfono</label>
+            <input type="text" name="telefono" id="telefono" size="9" placeholder="9 números" maxlength="9">
+            <br>
+            <label for="correo">Correo electrónico</label>
+            <input type="text" name="correo" id="correo" size="50" maxlength="50"
+                placeholder="El formato correcto es nombre + @ + servidor de correo.">
+        </fieldset>
+        <fieldset>
+            <legend>Valores numéricos</legend>
+            <label for="numpersonas">Número de personas</label>
+            <input type="number" min="1" max="20" name="numpersonas" id="numpersonas" value="1">
+            <br>
+            <label for="puntuacion">Mueva la barra para indicar puntuación (Del 1 al 10)</label>
+            <input type="range" min="1" max="10" value="0" name="puntuacion" id="puntuacion">
+        </fieldset>
+        <fieldset>
+            <legend>URL y búsqueda</legend>
+            <label for="url">URL de tu sitio</label>
+            <input type="url" name="url" id="url">
+            <br>
+            <label for="interesa">¿Qué te interesa buscar?</label>
+            <input type="text" name="interesa" id="interesa">
+        </fieldset>
+        <fieldset>
+            <legend>Otros tipos</legend>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <fieldset>
+            <legend>Para fechas</legend>
+            <label for="fecha">Seleccione una fecha (hasta fin de año)</label>
+            <input type="date" min="10-30-2026" max="12-31-2026" name="fecha" id="fecha">
+            <br>
+            <label for="hora">Seleccione una hora</label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="mes">Seleccione un mes</label>
+            <input type="month" name="mes" id="mes">
+            <br>
+            <label for="semana">Seleccione una semana</label>
+            <input type="week" name="semana" id="semana">
+            <br>
+            <label for="fechahora">Seleccione una fecha y una hora</label>
+            <input type="datetime-local" name="fechahora" id="fechahora">
+        </fieldset>
+        <button type="submit">
+            <img src="img/canvas.png" width="50" height="50"> Validar
+        </button>
+        <button type="reset">
+            <img src="img/canvas2.png" width="50" height="50"> Restablecer
+        </button>
+
+</body>
+
+</html>
